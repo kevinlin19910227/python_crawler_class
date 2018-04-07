@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>BeautifulSoup Practice</title>
+	<style>
+	.abc {
+		color: blue;
+		font-size: 40px;	
+	}
+
+	#i-am-id {
+		background-color: LightCyan;
+	}
+
+	table, th, td {
+		border: 1px solid black;
+	    border-collapse: collapse;
+	}
+	th, td {
+		padding: 10px;
+	}
+	</style>
+</head>
+<body>
+	<h1>Python web-crawl</h1>
+	<h2>Hello World</h2>
+	<h3>Python is good</h3>
+
+	<p title="title">content of p-tag</p>
+
+	<div> 
+	content of div
+	</div>
+
+	<p>second p-tag</p>
+	
+	<div class = "abc" id = "id1">attribute is abc</div>
+	<p hidden>python_crawler</p>
+	<div id = "one">
+		<table id = "test">
+		  <tr>
+			<th>(table-header-1)</th>
+			<th>(table-header-2)</th>
+			<th>(table-header-3)</th>
+			<th>(table-header-4)</th>
+		  </tr>
+		  <tr>
+			<td> row2 column1 </td>
+			<td class = "abcd"> row2 column2, class = abcd </td>
+			<td> 
+				<a href = "http://www.yahoo.com.tw">row2 column3, with a-tag and herf attribute </a> 
+			</td>
+			<td> 
+				<a href = "http://google.com/">row2 column4 </a>  
+			</td>
+		  </tr>
+		  <tr>
+			<td value = "5566">row3 column1 </td>
+			<td>row3 column2
+				<ol>
+					<li class = "zz">first li-tag </li>
+					<li> second li-tag </li>
+				</ol>
+			</td>
+			<td>
+				<a href = "http://facebook.com" id = "hyperlink"> row3 column3, with url of facebook</a>
+			</td>
+			<td class = "zzzz">row3 column4</td>
+		  </tr>
+
+		</table>
+	</div>
+
+	<p>python_crawler</p>
+
+</body>
+</html>
